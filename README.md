@@ -44,8 +44,8 @@
 	- 点击屏幕其他地方以关闭键盘
 	  
 			override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-			        yearNum.resignFirstResponder()
-			    }
+		        yearNum.resignFirstResponder()
+		    }
 	    
 	---
 	---
@@ -55,15 +55,15 @@
 			// 获取输入的数字
 			if let year = Int(yearNum.text!) {
 	            
-		            let imgNum = year % 12
-		            
-		             // 输入的数字模 12 得到对应图片设置给图片控件
-		            img.image = UIImage(named: String(imgNum))
-		            
-		            print(year)
-		            
-		        } else {
-		            print("invalide")
-		        }
+	            let imgNum = year % 12
+	            
+	             // 输入的数字模 12 得到对应图片设置给图片控件
+	            img.image = UIImage(named: String(imgNum))
+	            
+	            print(year)
+	            
+	        } else {
+	            print("invalide")
+	        }
 
 
