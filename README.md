@@ -8,11 +8,11 @@
 
 	![](https://github.com/itCatface/IOS-001_ChinaZodiac/blob/master/images/001-01.jpg?raw=true)
 	
-	1. 如图，在 Main.storyboard 中通过拖拽添加相关控件
+	1. **如图，在 Main.storyboard 中通过拖拽添加相关控件**
 	
-	2. 按住 Ctrl + 右键拖拽至 ViewController.swift 在代码中关联控件
+	2. **按住 Ctrl + 右键拖拽至 ViewController.swift 在代码中关联控件**
 	
-	3. 在代码中处理相关逻辑
+	3. **在代码中处理相关逻辑**
 
 - **关键代码**
 
@@ -26,7 +26,7 @@
 		// 通过视图绑定事件
 	    @IBAction func btnOk(sender: AnyObject) {
 		 	...
-		 }
+		}
 		
 	---
 		
