@@ -16,7 +16,7 @@
 
 - **关键代码**
 
-	- 通过视图绑定控件
+	- **通过视图绑定控件**
 	
 			@IBOutlet weak var yearNum: UITextField!
 			...
@@ -25,7 +25,7 @@
 	---
 	---
 	
-	- 通过视图绑定事件
+	- **通过视图绑定事件**
 	  
 			 @IBAction func btnOk(sender: AnyObject) {
 			 	...
@@ -34,14 +34,14 @@
 	---
 	---
 		
-	- 关闭键盘
+	- **关闭键盘**
 		
 			yearNum.resignFirstResponder()	
 		
 	---
 	---
 	
-	- 点击屏幕其他地方以关闭键盘
+	- **点击屏幕其他地方以关闭键盘**
 	  
 			override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
 		        yearNum.resignFirstResponder()
@@ -50,7 +50,7 @@
 	---
 	---
 	
-	- 处理逻辑
+	- **处理逻辑**
 	
 			// 获取输入的数字
 			if let year = Int(yearNum.text!) {
